@@ -1,0 +1,12 @@
+img
+  {
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height:auto;  
+  }
+
+  #main-footer {
+    background: rgb(53, 45, 45);
+    color: #fff;
+  }
