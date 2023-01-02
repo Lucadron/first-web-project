@@ -1,3 +1,3 @@
 # web-god
-İskelet tamam kankam
-İskeleti doldurdum
+İskelet tamam.
+İskeleti doldurdum.
