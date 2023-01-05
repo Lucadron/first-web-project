@@ -13,7 +13,7 @@
   <title>Ana Sayfa</title>
 </head>
  
-<body>
+<body style="background-color: silver;">
     <nav class="navbar navbar-expand-sm navbar-dark badge-dark">
         <div class="container">
           <a href="AnaSayfa.html" class="navbar-brand">Hangi kuşak nasıl yaşamalı?</a>
@@ -52,5 +52,68 @@
         </ul>
     </div>
 
+    <!--  S E C T İ O N -->
+
+    <section class="section border-0 py-0 m-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row py-5 my-5">
+                        <div class="row pb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">
+                            <div class="col-md-12">
+                                <form class="contact-form custom-form-style-1" action="php/contact-form.php" method="POST">
+                                    <div class="contact-form-success alert alert-success d-none mt-4">
+                                        <strong>Success!</strong> Your message has been sent to us.
+                                    </div>
+                
+                                    <div class="contact-form-error alert alert-danger d-none mt-4">
+                                        <strong>Error!</strong> There was an error sending your message.
+                                        <span class="mail-error-message text-1 d-block"></span>
+                                    </div>
+                
+                                    <div class="row row-gutter-sm">
+                                        <div class="form-group col-lg-6 mb-4">
+                                            <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required placeholder="Ad Soyad">
+                                        </div>
+                                        <div class="form-group col-lg-6 mb-4">
+                                            <input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control" name="phone" id="phone" required placeholder="Telefon numarası">
+                                        </div>
+                                    </div>
+                                    <div class="row row-gutter-sm">
+                                        <div class="form-group col-lg-6 mb-4">
+                                            <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required placeholder="E-Posta">
+                                        </div>
+                                        <div class="form-group col-lg-6 mb-4">
+                                            <input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required placeholder="Konu">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col mb-4">
+                                            <textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required placeholder="İletmek istediğin mesaj..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col mb-0">
+                                            <button type="submit" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">SEND MESSAGE</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 fluid-col-lg-5 p-4">
+                    <div class="fluid-col h-100">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48366.58354556409!2d30.30740622424584!3d40.74197347116915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccadf2977958d7%3A0xc7996fa884f94c03!2sSakarya%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1672756836018!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div id="googlemaps" class="google-map h-100 m-0" style="min-height: 400px;"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 </body>
+</html>
