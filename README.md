@@ -1,3 +1,3 @@
 # web-god
-İskelet tamam.
-İskeleti doldurdum.
+Change1 - İskelet tamam.
+Change2 - İskeleti doldurdum.
